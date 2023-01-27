@@ -1,0 +1,115 @@
+/* Styles for Portfolio Web Page */
+
+/* Set all HTML Elements with Border Box Sizing */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Default Styles */
+
+body {
+  background: #023047;
+  color: #ffb703;
+}
+
+/* Wrapper */
+
+.wrapper {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Header */
+
+header h1 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 3em;
+}
+
+header p {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+header h1, header p {
+    text-align: center;
+}
+
+/* Main */
+
+main {
+  background: #8ECAE6;
+  color: #023047;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+main h2 {
+    font-size: 2em;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+main h3 {
+    font-size: 1.5em;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+main p, main ul, main ol {
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+main h2, main h3 {
+    text-align: center;
+}
+
+hr {
+    border: 2px solid #023047;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+  color: #023047;
+}
+
+a:visited {
+  color: #fb8500;
+}
+
+a:hover {
+  color: #1a659e;
+}
+
+a:active {
+  color: #c09614;
+}
